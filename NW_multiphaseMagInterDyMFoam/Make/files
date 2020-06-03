@@ -1,0 +1,3 @@
+NW_multiphaseMagInterDyMFoam.C
+
+EXE = $(FOAM_APPBIN)/NW_multiphaseMagInterDyMFoam

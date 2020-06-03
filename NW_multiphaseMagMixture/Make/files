@@ -1,0 +1,5 @@
+phase/phase.C
+alphaContactAngle/alphaContactAngleFvPatchScalarField.C
+NW_multiphaseMagMixture.C
+
+LIB = $(FOAM_LIBBIN)/libNW_multiphaseMagInterFoam
