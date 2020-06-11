@@ -1,3 +1,8 @@
+// NW 2020-06-03 20:02
+// This part solves the velocity equation. It has been modified by me and
+// is causing troubles. Now I'm currently removing this file to use the original
+// version shipped with OF41. 
+
     MRF.correctBoundaryVelocity(U);
 
     //NW 2017-11-13 21:11

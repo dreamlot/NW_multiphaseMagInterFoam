@@ -1,4 +1,0 @@
-SOURCE = \
-phase/phase.C \
-alphaContactAngle/alphaContactAngleFvPatchScalarField.C \
-NW_multiphaseMagMixture.C 
