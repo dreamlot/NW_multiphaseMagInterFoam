@@ -83,8 +83,10 @@ int main(int argc, char *argv[])
          // --- Pressure-velocity PIMPLE corrector loop
         while (pimple.loop())
         {
+            /* NW2020-06-11 03:15, debugging
             //NW20170920
             #include "magEqn.H"
+            */
 
             #include "UEqn.H"
 

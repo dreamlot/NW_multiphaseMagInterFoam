@@ -215,7 +215,8 @@ volScalarField p_m
         IOobject::AUTO_WRITE
     ),
     //p_rgh
-    0.5*constant::electromagnetic::mu0 * (muMag-1.0) * H & H
+    //0.5*constant::electromagnetic::mu0 * (muMag-1.0) * H & H
+    0.5*constant::electromagnetic::mu0 * (muMag-1.0) * magSqr(H)
 );
 
 volScalarField magHMag
